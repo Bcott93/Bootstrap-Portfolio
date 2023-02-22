@@ -1,5 +1,49 @@
 # Bootstrap-Portfolio
 
-I suffered from Covid over the Christmas break and will get this finished this weekend. I realise it will be late, but hopefully this is enough to be able to resubmit.
+///////////////////////// HAS NOT BEEN COMPLETED /////////////////////////////
 
-Thanks in advance. 
+Aa a coding boot camp student I wanted to take a timed quiz on JavaScript fundamentals. It should store high scores so that I can gauge my progress compared to my peers.
+
+## The Goal
+
+The objective was to develop, in JavaScript, a quiz that could be taken by class mates.
+
+The required parameters were:
+
+    * The quiz started upon pressing the start button
+    * There should be an active timer
+    * Once a question is answered, the next question should appear
+    * If a question is answered incorrectly, the timer should be reduced
+    * The quiz ends, when either all the questions are answered, or when the timer reaches 0
+    * The contestant should be able to save their scores and initials
+
+The secondary objective was to ensure that the code would still function should more data be added, and that it was commented in a way which enables other developers to take over if required.
+
+## Usage
+
+To view the project, please follow the links below:
+
+https://github.com/Bcott93/Code-Quiz-Challenge
+
+![Sample Code](assets/images/Sample-Code.jpg)
+
+### Credits:
+
+- [w3schools]
+- [Javascript tutorial]
+
+### License
+
+Please see the License in the Repo.
+
+- [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+
+- [Responsive Web Design - How to Create Media Queries](https://www.youtube.com/watch?v=5xzaGSYd7jM)
+
+- [Media Queries 101 by CSS Tricks](https://css-tricks.com/css-media-queries/)
+
+- [Media Query Documentation](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+
+- [Github Pages Guide](https://pages.github.com/)
+
+##
