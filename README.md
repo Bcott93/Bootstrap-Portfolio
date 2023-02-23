@@ -1,49 +1,39 @@
 # Bootstrap-Portfolio
 
-///////////////////////// HAS NOT BEEN COMPLETED /////////////////////////////
-
-Aa a coding boot camp student I wanted to take a timed quiz on JavaScript fundamentals. It should store high scores so that I can gauge my progress compared to my peers.
+The task was to create a portfolio of my work as a student while using Bootstrap.
 
 ## The Goal
 
-The objective was to develop, in JavaScript, a quiz that could be taken by class mates.
+The objective was to recreate our previously created Project-Gallery in Bootstrap. 
 
-The required parameters were:
+The end product needed to include:
+    - A nav bar
+    - A bootstrap nav menu
+    - A section showing a picture or avatar and my name
+    - A grid showing my projects
+    - A link to any deployed applications
 
-    * The quiz started upon pressing the start button
-    * There should be an active timer
-    * Once a question is answered, the next question should appear
-    * If a question is answered incorrectly, the timer should be reduced
-    * The quiz ends, when either all the questions are answered, or when the timer reaches 0
-    * The contestant should be able to save their scores and initials
-
-The secondary objective was to ensure that the code would still function should more data be added, and that it was commented in a way which enables other developers to take over if required.
+We needed to show understanding of minimizing media queries to complete our tasks. 
 
 ## Usage
 
 To view the project, please follow the links below:
 
-https://github.com/Bcott93/Code-Quiz-Challenge
+https://bcott93.github.io/Bootstrap-Portfolio/
 
-![Sample Code](assets/images/Sample-Code.jpg)
+![Sample Application](assets/images/sample-application.jpg)
 
 ### Credits:
 
 - [w3schools]
 - [Javascript tutorial]
+- [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+- [Github Pages Guide](https://pages.github.com/)
+
 
 ### License
 
 Please see the License in the Repo.
 
-- [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
-- [Responsive Web Design - How to Create Media Queries](https://www.youtube.com/watch?v=5xzaGSYd7jM)
 
-- [Media Queries 101 by CSS Tricks](https://css-tricks.com/css-media-queries/)
-
-- [Media Query Documentation](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
-
-- [Github Pages Guide](https://pages.github.com/)
-
-##
