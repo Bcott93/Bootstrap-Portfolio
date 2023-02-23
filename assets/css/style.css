@@ -1,0 +1,111 @@
+/* GLOBAL */
+:root {
+    --orange:#EA3C12;
+    --white: #f2f2f2;
+    --black: #111111;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
+}
+
+/* Global button styling */
+button {
+    font-size: 14px;
+    color: var(--orange);
+    background-color: transparent;
+    border: 2px solid var(--orange);
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 25px;
+}
+
+button:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+/* HEADER */
+header {
+    padding: 10px 32px;
+    background-color: 
+    #111111;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bdcLogo {
+    width: 80px;
+}
+
+header .row {
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: var(--orange);
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    padding-top: calc(128px + 64px);
+}
+
+.jumbotron .container {
+    position: relative;
+}
+
+h1 {
+    font-size: 38px;
+    line-height: 41px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 300px;
+    text-align: center;
+    background-color: var(--orange);
+    padding: 40px 0px;
+    color: var(--white);
+}
+
+footer .col {
+    width: calc(100% - 64px);
+    padding: 0;
+}
+
+.owners {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.owners a {
+    text-decoration: none;
+    color: var(--black);
+    transition: all 0.3s ease;
+}
+
+.owners a:hover {
+    color: var(--white);
+}
