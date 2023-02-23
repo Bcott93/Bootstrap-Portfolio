@@ -81,6 +81,26 @@ h1 {
     margin-bottom: 25px;
 }
 
+#jumboLogo {
+    margin-left: 30%;
+    width:80%;
+}
+
+/* Section */
+
+section {
+   padding-top: calc(128px + 64px);
+}
+
+aside {
+    float: left;
+}
+
+#aboutImg {
+   
+    width: 70%;
+}
+
 /* FOOTER */
 footer {
     margin-top: 300px;
