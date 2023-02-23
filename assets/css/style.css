@@ -10,24 +10,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Global button styling */
-button {
-    font-size: 14px;
-    color: var(--orange);
-    background-color: transparent;
-    border: 2px solid var(--orange);
-    text-transform: uppercase;
-    border-radius: 3px;
-    padding: 10px 15px;
-    transition: all 0.3s ease-in-out;
-    margin-bottom: 25px;
-}
-
-button:hover {
-    background-color: var(--orange);
-    color: var(--white);
-}
-
 /* HEADER */
 header {
     padding: 10px 32px;
@@ -64,6 +46,15 @@ header .row {
     color: var(--orange);
 }
 
+.nav ul, .nav li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
 /* Jumbotron */
 
 .jumbotron {
@@ -90,20 +81,38 @@ h1 {
 
 section {
    padding-top: calc(128px + 64px);
+   padding-bottom: calc(128px + 64px);
 }
 
 aside {
     float: left;
 }
 
-#aboutImg {
-   
+#aboutImg, #contactImg {
     width: 70%;
+}
+
+/* Img Gallery */
+
+
+.imgGallery {
+    background-color: #e9ecef;
+}
+
+.imgGallery h2 {
+    text-align: center;
+}
+
+
+
+.gallery-img {
+    padding: 5%;
+    border: 5px solid #555;
+    margin-bottom: 50px;
 }
 
 /* FOOTER */
 footer {
-    margin-top: 300px;
     text-align: center;
     background-color: var(--orange);
     padding: 40px 0px;
