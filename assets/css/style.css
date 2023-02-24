@@ -52,13 +52,10 @@ header .row {
     flex-direction: row;
 }
 
-
-
-
 /* Jumbotron */
 
 .jumbotron {
-    padding-top: calc(128px + 64px);
+    padding-top: calc(88px + 64px);
 }
 
 .jumbotron .container {
@@ -80,8 +77,8 @@ h1 {
 /* Section */
 
 section {
-   padding-top: calc(128px + 64px);
-   padding-bottom: calc(128px + 64px);
+   padding-top: calc(88px + 64px);
+   padding-bottom: calc(88px + 64px);
 }
 
 aside {
@@ -91,7 +88,15 @@ aside {
 #aboutImg, #contactImg {
     width: 70%;
 }
+.contact a {
+    text-decoration: none;
+    color: var(--black);
+    transition: all 0.3s ease;
+}
 
+.contact a:hover {
+    color: var(--orange);
+}
 /* Img Gallery */
 
 
@@ -102,8 +107,6 @@ aside {
 .imgGallery h2 {
     text-align: center;
 }
-
-
 
 .gallery-img {
     padding: 5%;
@@ -141,4 +144,19 @@ footer .col {
 
 .btn {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+@media screen and (max-width: 767px) {
+    #jumboLogo {
+    width: 40%;
+    }
+
+
+    #aboutImg, #contactImg {
+        width: 100%;
+        justify-content: center;
+        margin-left: 10%;
+        margin-bottom: 10%;
+    }
+
 }
